@@ -1,9 +1,9 @@
 [
   {
-    "name": "home",
-    "path": "/home",
-    "component": "/Users/gabrielcaiana/projects/Frontend/Nuxt.js/nuxt-boilerplate/pages/home.vue",
-    "chunkName": "pages/home",
-    "_name": "_4ac1795f"
+    "name": "index",
+    "path": "/",
+    "component": "/Users/gabrielcaiana/projects/Frontend/Nuxt.js/nuxt-boilerplate/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_61aaf602"
   }
 ]
