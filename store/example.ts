@@ -1,6 +1,6 @@
-import { Module, VuexModule, Mutation, Action } from 'vuex-module-decorators'
+import { Module, VuexModule} from 'vuex-module-decorators'
 
-@Module
+@Module({ name: 'example', stateFactory: true, namespaced: true })
 export default class Example extends VuexModule {
-  state = []
+  example  = []
 }

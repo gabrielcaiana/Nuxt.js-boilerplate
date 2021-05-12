@@ -1,0 +1,9 @@
+[
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "/Users/gabrielcaiana/projects/Frontend/Nuxt.js/nuxt-boilerplate/pages/home.vue",
+    "chunkName": "pages/home",
+    "_name": "_4ac1795f"
+  }
+]
