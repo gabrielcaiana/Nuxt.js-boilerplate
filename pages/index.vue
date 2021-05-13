@@ -1,9 +1,23 @@
 <template>
   <div>
-     Hello World
+     <h1>{{$count}}</h1> 
+     <button @click="increment">Incrementar</button>
   </div>
 </template>
 <script lang="ts">
 import Vue from 'vue'
-export default Vue.extend({})
+import { example } from '@/store'
+export default Vue.extend({
+  computed: {
+    $count() {
+      return example.$count
+    }
+  },
+
+  methods: {
+    increment() {
+      example.increment(1)
+    }
+  }
+})
 </script>

@@ -3,19 +3,19 @@ import {$axios} from '@/utils/nuxt-instance'
 
 @Module({ name: 'example', stateFactory: true, namespaced: true })
 export default class Example extends VuexModule {
-  private example  = 0
+  private count  = 0
 
-  public get $example() {
-    return this.example
+  public get $count() {
+    return this.count
   }
 
   @Mutation
   private INCREMENT(number: number) {
-    this.example += number
+    this.count += number
   }
 
   @Action
-  public increment() {
-    this.context.commit('INCREMENT', 5)
+  public increment(number: number) {
+    this.context.commit('INCREMENT', number)
   }
 }
